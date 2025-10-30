@@ -10,16 +10,16 @@ Un ejemplo del programa es que si elegimos la opcion 3 (Ordenar paises) nos most
         
    ************************************************************************
   Este menu nos mostrara las opciones con las que podemos ordenar los paises, si elegimos la 1 (ordenar por nombre) entrara a un menu donde el usuario tendra que elegir como quiere que se ordene
-      # :::::::::::::::::::::::::::::::::::::
+      # (
     #    1. Ascendente (A-Z)
     #    2. Desendente (Z-A)
     #    3. Volver
-    # :::::::::::::::::::::::::::::::::::::
+    # )
 Elije una opcion: 1
-{'nombre': 'Afganistán', 'poblacion': '42171000', 'superficie': '652230', 'continente': 'Asia'}
+[{'nombre': 'Afganistán', 'poblacion': '42171000', 'superficie': '652230', 'continente': 'Asia'}
 {'nombre': 'Albania', 'poblacion': '2363314', 'superficie': '28748', 'continente': 'Europa'}
 {'nombre': 'Alemania', 'poblacion': '83577140', 'superficie': '357022', 'continente': 'Europa'}
-{'nombre': 'Andorra', 'poblacion': '87097', 'superficie': '468', 'continente': 'Europa'}
+{'nombre': 'Andorra', 'poblacion': '87097', 'superficie': '468', 'continente': 'Europa'}]
 ... asi con todos los paises
 Esta misma metodologia se repite con las otras opciones, todo para que el usuario entienda el programa y no se le haga confuso.
 
